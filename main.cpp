@@ -19,7 +19,8 @@ int main() {
     long double y;
     std::cout << "Enter y (real number): ";
     std::cin >> y;
-    std::cout << (7*t(0.25 , double_factorial) + 2*t(1+y, double_factorial)) / (6 - t(y*y - 1, double_factorial));
+    std::cout << (7*t(0.25 , double_factorial) + 2*t(1+y, double_factorial)) / \
+    (6 - t(y*y - 1, double_factorial));
 
     return 0;
 }
